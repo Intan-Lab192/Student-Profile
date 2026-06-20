@@ -2,8 +2,10 @@
 Student Profile Management System
 
 Student Information
-Name: Intan Suraya Binti Salim
-Student ID: 2024421388
+
+Name:  Intan Suraya Binti Salim
+
+Student ID:  2024421388
 
 Project Description
 
@@ -26,34 +28,36 @@ Application Used
 Features Implemented
 
 Core Features
-1.Create Profile
-2.Store Profile in Database
-3.View All Profiles
+1. Create Profile
+2. Store Profile in Database
+3. View All Profiles
 
 Additional Features
-1.Search Profile by Student ID or Name
-2.Edit Profile Information
-3.Delete Profile Record
+1. Search Profile by Student ID or Name
+2. Edit Profile Information
+3. Delete Profile Record
 
 MVC Components
 
 Model
-1.ProfileBean.java
+1. ProfileBean.java
 
 View
-1.index.html
-2.profile.jsp
-3.viewProfiles.jsp
-4.editProfile.jsp
+1. index.html
+2. profile.jsp
+3. viewProfiles.jsp
+4. editProfile.jsp
 
 Controller
-1.ProfileServlet.java
-2.ViewProfileServlet.java
-3.SearchProfileServlet.java
-4.EditProfileServlet.java
-5.UpdateProfileServlet.java
-6.DeleteProfileServlet.java
+1. ProfileServlet.java
+2. ViewProfileServlet.java
+3. SearchProfileServlet.java
+4. EditProfileServlet.java
+5. UpdateProfileServlet.java
+6. DeleteProfileServlet.java
 
 Database
+
 Database Name: StudentProfilesDB
+
 Table Name: PROFILE
