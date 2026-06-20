@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2026, 3:30:32 PM
+    Author     : Intan
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap'); /*importing font*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf3f3;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Pop up box*/
+.container{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.3);
+    width: 55%;
+    max-width: 750px;
+    min-width: 320px;
+    box-sizing: border-box;
+    border: 2px solid #ffe4e6;
+}
+
+/*Soft Pink Box*/
+.profile-box {
+    background-color: #fff0f2;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
+    margin-top: 20px;
+}
+
+.greeting-title{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.italic-sub{
+    font-style: italic;
+    color: #7a7a7a;
+    margin-bottom: 30px;
+}
+
+.cursive-text {
+    font-family: 'Playwrite GB S', cursive; 
+    color: #ff758f;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #5c5c5c;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px 14px;
+    border: 1px solid #ffccd5;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffafb;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #ff758f;
+    box-shadow: 0 0 5px rgba(255, 117, 143, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    height: 70px;
+}
+
+/* Soft Pink Submit Button with Pop-up hover effect */
+.btn-pink {
+    background-color: #ffb6c1; 
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btn-pink:hover {
+    background-color: #ff9aa2;
+    transform: translateY(-3px); /* For a  real "pop-up" feel */
+    box-shadow: 0 6px 15px rgba(255, 154, 162, 0.6);
+}
+
+/*Table alignment*/
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 10px 5px;
+    color: #4a4a4a;
+}
+
+.info-table td.label-cell {
+    font-weight: 600;
+    width: 40%;
+    color: #5c5c5c;
+}
+
+/* Icon Colors */
+.accent-icon {
+    color: #ff758f;
+    margin-left: 5px;
+}
+
+.table-container{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.3);
+    width: 95%;
+    max-width: 1200px;
+    border: 2px solid #ffe4e6;
+}
+
+.profile-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+
+.profile-table th{
+    background-color:#ffb6c1;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+.profile-table td{
+    padding:12px;
+    border-bottom:1px solid #ffe4e6;
+}
+
+.profile-table tr:hover{
+    background-color:#fff7f8;
+}
+
+/* search box */
+
+.search-box{
+    width:70%;
+    padding:10px;
+    border:1px solid #ffccd5;
+    border-radius:8px;
+    font-family:'Poppins', sans-serif;
+}
+
+.search-btn{
+    background-color:#ffb6c1;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.search-btn:hover{
+    background-color:#ff9aa2;
+}
+
+/* edit and delete buttons */
+
+.action-btn{
+    text-decoration:none;
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:20px;
+    color:white;
+    margin:3px;
+    font-size:14px;
+}
+
+.edit-btn{
+    background-color:#ffb6c1;
+}
+
+.edit-btn:hover{
+    background-color:#ff9aa2;
+}
+
+.delete-btn{
+    background-color:#ff758f;
+}
+
+.delete-btn:hover{
+    background-color:#ff5c7a;
+}

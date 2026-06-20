@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Personal Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css?v=3"> <!-- for calling style.css folder -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- For changing the font in the webpage -->
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="greeting-title">
+                Hey User, <i class="fa-regular fa-face-smile accent-icon"></i><i class="fa-regular fa-heart accent-icon"></i> <!-- Inserting a smiling and heart icon -->
+            </div>
+            <div class="italic-sub">May I get your information?</div>
+            
+            <form action="ProfileServlet" method="POST">
+                <div class="form-group">
+                    <label>Name : </label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label>Student ID : </label>
+                    <input type="text" name="studentId" required>
+                </div>
+                <div class="form-group">
+                    <label>Program : </label>
+                    <input type="text" name="program" required>
+                </div>
+                <div class="form-group">
+                    <label>Email : </label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Hobbies : </label>
+                    <input type="text" name="hobbies" required>
+                </div>
+                <div class="form-group">
+                    <label>Short Self Introduction : </label>
+                    <textarea name="bio" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-pink">SUBMIT</button>
+                <br><br>
+
+                <a href="ViewProfileServlet">
+                <button type="button" class="btn-pink">
+                 VIEW ALL PROFILES
+                 </button>
+</a>
+            </form>
+        </div>
+        
+    </body>
+</html>
